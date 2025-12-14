@@ -19,9 +19,6 @@ spec:
           image: bperhun/course-app:latest
           ports:
             - containerPort: 8080
-          envFrom:
-            - configMapRef:
-                name: course-app-config
           env:
             - name: APP_STORE
               value: redis
