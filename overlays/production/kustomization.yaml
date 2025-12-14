@@ -6,5 +6,6 @@ resources:
   - namespace.yaml
   - dragonfly.yaml
   - hpa.yaml
+  - redis-service.yaml
 patchesStrategicMerge:
   - deployment-patch.yaml
