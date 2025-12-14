@@ -9,3 +9,4 @@ resources:
   - redis-service.yaml
 patchesStrategicMerge:
   - deployment-patch.yaml
+  - ingress-patch.yaml
